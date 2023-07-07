@@ -136,21 +136,29 @@ margin-left: 50px;
     font-size: 18px;
 
 }
-.third-section{
+/* .third-section{
     background-color: #E5E7EB;
     height: 500px;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    
+} 
 h3{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1f3927;
     text-align: center;
-}
+
+    overflow: hidden;
+
+
+    width: 100%;
+
+} */
 .p-third{
     font-size: 18px;
     text-align: end;
