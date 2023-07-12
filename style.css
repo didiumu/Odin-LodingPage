@@ -7,6 +7,9 @@ body{
 }
 .first-section{
     background-color: #1f2937;
+    margin: 50px 0;
+
+
 }
 #header-log{
     font-size: 24px;
@@ -24,23 +27,27 @@ header img{
  
       }     
 
-.header-link{
+.header-link {
     font-size: 18px;
     color: #E5E7EB;
     margin-right: 51px;
     margin-top: -4em;
     height: 50%;
-
+    
+    
+    
 } 
 ul{
     display: flex;
     flex-direction: row;
+   
 }
 .navbar-left{
     display:flex;
     width: 50%;
     justify-content: center;
     align-items: cente;
+    
 }
 .navbar-right{
     display:flex;
@@ -54,14 +61,17 @@ margin-top: 30px;
 .photo-container {
     border: 5px solid #3882F6;
     border-radius: 10px;
-    overflow: hidden;
+    width: 100%;
     display: flex;
     width: 75%;
     justify-content: center;
     align-items: center;
+    margin: 50px 0;
+    cursor: pointer;
   }
   
   .photo-container img {
+    
     width: 100%;
     height: auto;
    
@@ -127,6 +137,7 @@ margin-left: 50px;
 }
  
 .second-section{
+    margin: 50px 0;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -136,11 +147,12 @@ margin-left: 50px;
     font-size: 18px;
 
 }
-/* .third-section{
+ .third-section{
     background-color: #E5E7EB;
+    margin: 50px 0;
     height: 500px;
     display: flex;
-    overflow: hidden;
+   width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -152,13 +164,9 @@ h3{
     font-weight: lighter;
     color: #1f3927;
     text-align: center;
-
-    overflow: hidden;
-
-
     width: 100%;
 
-} */
+} 
 .p-third{
     font-size: 18px;
     text-align: end;
@@ -169,6 +177,7 @@ h3{
     margin-left: 500px;
 }
 .last-section{
+    margin: 50px 0;
     height: 300px;
     display: flex;
     justify-content: center;
